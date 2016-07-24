@@ -1,17 +1,11 @@
 var React = require('react');
-var {Link} = require('react-router');
 
-var Weathermessage = React.createClass({
-	
-    render: function() {
-        return (
-            <div>
-                <h2>Location:</h2>{this.props.location} 
-                <h2>Temperature:</h2> {this.props.temp}
-            </div>
-        );
+var WeatherMessage = (props) => {
 
-    }
-});
+  return (
+    <h3>It's it {props.temp} in {props.location}.</h3>
 
-module.exports = Weathermessage;
+  )
+}
+
+module.exports = WeatherMessage;

@@ -2,8 +2,7 @@
 
 const express = require('express');
 const app = express();
-const React = require('react');
-const ReactDOM = require('react-dom');
+
 
 app.use(express.static('public'));
 
