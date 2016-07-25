@@ -11,7 +11,7 @@ app.use((req, res, next) => {
         next();
     } else {
 
-        res.redirect('https://', req.hostname, req.url);
+        res.redirect('https://', req.hostname, + '/' + req.url);
     }
 });
 
