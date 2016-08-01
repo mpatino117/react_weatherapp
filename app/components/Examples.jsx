@@ -4,9 +4,9 @@ var {Link} = require('react-router');
 var Examples = (props) => {
     return (
         <div>
-            <h3>
+            <h1>
                 Examples Component
-            </h3>
+            </h1>
             <p>
                 Here are a few Examples try it out
             </p>
